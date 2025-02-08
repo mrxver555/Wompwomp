@@ -1,0 +1,272 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local _1 = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local TextLabel_2 = Instance.new("TextLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIGradient_3 = Instance.new("UIGradient")
+local TextLabel_4 = Instance.new("TextLabel")
+local UIGradient_4 = Instance.new("UIGradient")
+local UIGradient_5 = Instance.new("UIGradient")
+local TextLabel_5 = Instance.new("TextLabel")
+local UIGradient_6 = Instance.new("UIGradient")
+local STEAL = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local username = Instance.new("TextBox")
+local UICorner_3 = Instance.new("UICorner")
+local RobuxAmount = Instance.new("TextBox")
+local UICorner_4 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
+local UIGradient_7 = Instance.new("UIGradient")
+local Frame_3 = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local UIGradient_8 = Instance.new("UIGradient")
+
+--Properties:
+
+_1.Name = "1"
+_1.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+_1.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = _1
+Frame.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.421685934, 0, 0.395429879, 0)
+Frame.Size = UDim2.new(0, 454, 0, 190)
+
+Frame_2.Parent = Frame
+Frame_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame_2.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Frame_2.BorderColor3 = Color3.fromRGB(139, 71, 181)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.499854147, 0, 0.497007817, 0)
+Frame_2.Size = UDim2.new(0, 439, 0, 176)
+
+TextLabel.Parent = Frame_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.259177506, 0, 0.887390852, 0)
+TextLabel.Size = UDim2.new(0, 210, 0, 13)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "YouTube : mrxver1"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 27.000
+TextLabel.TextWrapped = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(226, 108, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(122, 11, 209))}
+UIGradient.Parent = TextLabel
+
+TextLabel_2.Parent = Frame_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.111161843, 0, 0.221141472, 0)
+TextLabel_2.Size = UDim2.new(0, 348, 0, 24)
+TextLabel_2.Font = Enum.Font.FredokaOne
+TextLabel_2.Text = "ROBUX STEALER"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 43.000
+TextLabel_2.TextWrapped = true
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(226, 108, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(122, 11, 209))}
+UIGradient_2.Parent = TextLabel_2
+
+UICorner.CornerRadius = UDim.new(0.100000001, 0)
+UICorner.Parent = Frame_2
+
+TextLabel_3.Parent = Frame_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.926971614, 0, 0.858981729, 0)
+TextLabel_3.Size = UDim2.new(0, 24, 0, 23)
+TextLabel_3.Font = Enum.Font.FredokaOne
+TextLabel_3.Text = "v1"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 27.000
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(226, 108, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(122, 11, 209))}
+UIGradient_3.Parent = TextLabel_3
+
+TextLabel_4.Parent = Frame_2
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 255, 255)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(-0.000503574789, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 152, 0, 20)
+TextLabel_4.Font = Enum.Font.FredokaOne
+TextLabel_4.Text = "MRXSCRIPTHUB"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 18.000
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(226, 108, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(122, 11, 209))}
+UIGradient_4.Parent = TextLabel_4
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.23, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.54, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_5.Parent = Frame_2
+
+TextLabel_5.Parent = Frame_2
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 255, 255)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.637309611, 0, 0.00568181835, 0)
+TextLabel_5.Size = UDim2.new(0, 152, 0, 20)
+TextLabel_5.Font = Enum.Font.FredokaOne
+TextLabel_5.Text = "PET SIMULATOR 99"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 18.000
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(226, 108, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(122, 11, 209))}
+UIGradient_6.Parent = TextLabel_5
+
+STEAL.Name = "STEAL"
+STEAL.Parent = Frame_2
+STEAL.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+STEAL.BorderColor3 = Color3.fromRGB(0, 0, 0)
+STEAL.BorderSizePixel = 0
+STEAL.Position = UDim2.new(0.348519355, 0, 0.653409064, 0)
+STEAL.Size = UDim2.new(0, 130, 0, 27)
+STEAL.Font = Enum.Font.FredokaOne
+STEAL.Text = "STEAL"
+STEAL.TextColor3 = Color3.fromRGB(0, 0, 0)
+STEAL.TextSize = 30.000
+
+UICorner_2.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_2.Parent = STEAL
+
+username.Name = "username"
+username.Parent = Frame_2
+username.BackgroundColor3 = Color3.fromRGB(226, 108, 255)
+username.BorderColor3 = Color3.fromRGB(0, 0, 0)
+username.BorderSizePixel = 0
+username.Position = UDim2.new(0.0956719816, 0, 0.403409094, 0)
+username.Size = UDim2.new(0, 161, 0, 35)
+username.Font = Enum.Font.Unknown
+username.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+username.PlaceholderText = "username"
+username.Text = ""
+username.TextColor3 = Color3.fromRGB(0, 0, 0)
+username.TextSize = 15.000
+username.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_3.Parent = username
+
+RobuxAmount.Name = "Robux Amount"
+RobuxAmount.Parent = Frame_2
+RobuxAmount.BackgroundColor3 = Color3.fromRGB(226, 108, 255)
+RobuxAmount.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RobuxAmount.BorderSizePixel = 0
+RobuxAmount.Position = UDim2.new(0.535307527, 0, 0.403409094, 0)
+RobuxAmount.Size = UDim2.new(0, 161, 0, 35)
+RobuxAmount.Font = Enum.Font.Unknown
+RobuxAmount.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+RobuxAmount.PlaceholderText = "Robux Amount"
+RobuxAmount.Text = ""
+RobuxAmount.TextColor3 = Color3.fromRGB(0, 0, 0)
+RobuxAmount.TextSize = 15.000
+RobuxAmount.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_4.Parent = RobuxAmount
+
+UICorner_5.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_5.Parent = Frame
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(226, 108, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(122, 11, 209))}
+UIGradient_7.Parent = Frame
+
+Frame_3.Parent = Frame
+Frame_3.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.507332742, 0, 0.165927127, 0)
+Frame_3.Size = UDim2.new(0, 446, 0, 6)
+
+UICorner_6.CornerRadius = UDim.new(0.100000001, 0)
+UICorner_6.Parent = Frame_3
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(226, 108, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(122, 11, 209))}
+UIGradient_8.Parent = Frame_3
+
+-- Scripts:
+
+local function ESWHH_fake_script() -- _1.LocalScript 
+	local script = Instance.new('LocalScript', _1)
+
+	
+	frame = script.Parent.Frame
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(ESWHH_fake_script)()
+local function JAYCVIM_fake_script() -- STEAL.LocalScript 
+	local script = Instance.new('LocalScript', STEAL)
+
+	local scriptParent = script.Parent
+	local TextButton = scriptParent.Frame.Frame_2.TextButton  -- "STEAL" button
+	local usernameBox = scriptParent.Frame.Frame_2.username  -- Username TextBox
+	local robuxBox = scriptParent.Frame.Frame_2["Robux Amount"]  -- Robux Amount TextBox
+	
+	local function formatNumber(number)
+		local formatted = tostring(number)
+		formatted = formatted:reverse():gsub("(%d%d%d)", "%1,"):reverse()
+		if formatted:sub(1, 1) == "," then
+			formatted = formatted:sub(2)
+		end
+		return formatted
+	end
+	
+	TextButton.MouseButton1Click:Connect(function()
+		local username = usernameBox.Text
+		local robux_amount = tonumber(robuxBox.Text) or 0  -- Convert text to number
+	
+		if username == "" or robux_amount <= 0 then
+			warn("Invalid username or robux amount")
+			return
+		end
+	
+		local ScreenGui = game:GetService("Players").LocalPlayer.PlayerGui.ScreenGui
+		local TweenService = game:GetService("TweenService")
+		local Donation_Text = username .. " DONATED " .. formatNumber(robux_amount) .. " TO YOU!"
+		local clone = game:GetService("Players").LocalPlayer.PlayerGui.UITemplates.donationPopup:Clone()
+	
+		game:GetService("Players").LocalPlayer.leaderstats.Raised.Value =
+			game:GetService("Players").LocalPlayer.leaderstats.Raised.Value + robux_amount
+	
+		clone.Message.Text = Donation_Text
+		clone.Transparency = 1
+		clone.UIScale.Scale = 0
+		clone.Parent = ScreenGui.Popups
+	
+		TweenService:Create(clone, TweenInfo.new(0.5, Enum.EasingStyle.Quint), { Transparency = 0 }):Play()
+		TweenService:Create(clone.UIScale, TweenInfo.new(0.3, Enum.EasingStyle.Back), { Scale = 1 }):Play()
+		TweenService:Create(clone.Message, TweenInfo.new(1, Enum.EasingStyle.Quint), { MaxVisibleGraphemes = #Donation_Text }):Play()
+	
+		wait(4)
+		TweenService:Create(clone, TweenInfo.new(0.25, Enum.EasingStyle.Quint), { Transparency = 1 }):Play()
+		TweenService:Create(clone.UIScale, TweenInfo.new(0.5, Enum.EasingStyle.Back), { Scale = 0 }):Play()
+	
+		wait(0.5)
+	end)
+	
+end
+coroutine.wrap(JAYCVIM_fake_script)()
